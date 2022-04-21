@@ -4,9 +4,9 @@ metadata:
   name: ecsdemo-crystal
   labels:
     app: ecsdemo-crystal
-  namespace: projet
+      #  namespace: projet
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: ecsdemo-crystal
@@ -34,9 +34,9 @@ metadata:
   name: ecsdemo-frontend
   labels:
     app: ecsdemo-frontend
-  namespace: projet
+      # namespace: projet
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: ecsdemo-frontend
@@ -69,9 +69,9 @@ metadata:
   name: ecsdemo-nodejs
   labels:
     app: ecsdemo-nodejs
-  namespace: projet
+      # namespace: projet
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: ecsdemo-nodejs
